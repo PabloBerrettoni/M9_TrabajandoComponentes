@@ -33,13 +33,13 @@ function Additional() {
             <tbody>
                 {data.map((movie, index) => (
                     <RowTable 
-                     title={movie.title}
-                     length={movie.length}
-                     rating={movie.rating}
-                     genre={movie.genre}
-                     awards={movie.awards}
-                     key={index}
-                     />
+                    title={movie.title}
+                    length={movie.length}
+                    rating={movie.rating}
+                    genre={movie.genre}
+                    awards={movie.awards}
+                    key={index}
+                    />
                 ))}
             </tbody>
         </table>

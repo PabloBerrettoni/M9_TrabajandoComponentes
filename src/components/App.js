@@ -5,13 +5,9 @@ import Sidebar from './Sidebar';
 function App() {
   return (
     <div id="wrapper">
-		{/* <!-- Sidebar --> */}
       <Sidebar/>
-		{/* <!-- End of Sidebar --> */}
-		{/* <!-- Content Wrapper --> */}
       <ContentWrapper/>
-		{/* <!-- End of Content Wrapper --> */}
-	</div>
+    </div>
   );
 }
 

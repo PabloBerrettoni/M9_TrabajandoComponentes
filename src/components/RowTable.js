@@ -7,7 +7,7 @@ function RowTable({title, length, rating, genre, awards}) {
         <tr>
             <th scope="row">{title}</th>
             <td>{length}</td>
-             <td>{rating}</td>
+            <td>{rating}</td>
             <td>
                 <ul>
                     {genre.map((genre, i) => 
